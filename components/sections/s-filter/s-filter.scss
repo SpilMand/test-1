@@ -1,0 +1,21 @@
+.s-filter {
+  display: flex;
+  gap: 16px;
+  
+  &__input {
+    display: flex;
+    gap: 16px;
+    position: relative;
+  
+    &-hint {
+      position: absolute;
+      opacity: 0.5;
+      top: 4px;
+      left: 8px;
+    }
+  
+    input {
+      padding: 8px;
+    }
+  }
+}
